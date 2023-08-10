@@ -51,6 +51,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: weiheng-service-2-sandboxvpc
+        service: aaaaaaaa-newsecuritygrp
         cluster: weiheng-cluster-2-sandboxvpc
         wait-for-service-stability: true
